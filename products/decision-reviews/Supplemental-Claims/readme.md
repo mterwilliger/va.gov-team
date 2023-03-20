@@ -18,6 +18,8 @@
 |Kyle Soskin | BE Engineer | kyle.soskin@adhocteam.us |
 |Rocio de Santiago | BE Engineer | rocio@coforma.io |
 |Josh Kim | A11y lead | josh.kim@adhocteam.us |
+|Michael Hobson | Product Manager, Lighthouse | michael.hobson@adhocteam.us |
+|Drew Fisher | Engineer, Lighthouse | drew.fisher@adhocteam.us |
 
 ### VBA Subject Matter Experts  
 
@@ -116,6 +118,14 @@ As a VSR or RVSR processing Supplemental Claims, I want the process of making an
 We don't want to create an unforeseen situation where VSRs or RVSRs are incentivized to make incorrect or inaccurate decisions just to process a supplemental claim quicker.
 
 We want users to choose the right (best) decision review option; that means we don't want users submitting supplemental claims if they don't have new and relevant evidence, but we also want to make sure they choose this option when appropriate.
+
+## Links to the dashboard(s) 
+
+- Google Analytics
+- Domo
+- [Grafana - Claims and Appeals](https://grafana.vfs.va.gov/d/WxQ9lkUGz/claims-and-appeals-alerts?orgId=1&from=now-7d&to=now)
+- [Grafana - Supplemental Claims](https://grafana.vfs.va.gov/d/ejdUuxTVk/sc-supplemental-claims-dashboard?orgId=1)
+- [Sentry](http://sentry.vfs.va.gov/organizations/vsp/dashboard/10/?project=4&statsPeriod=7d)
 
 <!-- ## Context and Decisions
 

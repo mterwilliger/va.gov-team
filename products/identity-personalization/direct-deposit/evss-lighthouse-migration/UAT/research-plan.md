@@ -14,7 +14,7 @@ The goals for the EVSS > Lighthouse migration are to limit service disruptions f
 ## Research Goals	
 The primary goal of our UAT is to confirm that the Direct Deposit section of the Profile functions as intended for various user types:
 - Users that are logged out see the sign in modal when arrive at the Direct Deposit section of the Profile. 
-- MHV users see Direct Deposit section of the Profile, and also see prompt to login with ID.me or Login.gov.
+- MHV and DS Logon users see Direct Deposit section of the Profile, and also see prompt to login with ID.me or Login.gov.
 - Ineligible LOA3 users see Direct Deposit section of the Profile, and see messaging that they are not eligible for direct deposit for comp & pen.
 - Eligible but not yet set up for direct deposit LOA3 users see Direct Deposit section of the Profile and see a prompt to set it up.
 - Eligible and set up for direct deposit LOA3 users see Direct Deposit section of the Profile and when they edit and save new info, they receive a confirmation email.
@@ -32,7 +32,7 @@ Based on the outcome of this research study, we will either release this work to
 - Are errors working correctly to protect Veterans and other users from entering incorrect direct deposit information?
 
 ### Hypothesis
-- Veterans will see the correct messaging based on their logged in method and status (whether that is logged out, MHV, Login.gov or ID.me).
+- Veterans will see the correct messaging based on their logged in method and status (whether that is logged out, MHV, DS Login, Login.gov or ID.me).
 - Veterans will see the correct messaging based on whether or not they are eligible for direct deposit for comp & pen.
 - Veterans will be able to edit and save direct deposit information (or edit and cancel to retain previous direct deposit information).
 - Veterans will be protected from submitting false direct deposit information through errors that prevent them from saving edits.
@@ -60,6 +60,7 @@ We will aim for at least **5 completed sessions** for each user type:
 The following use cases will not be specifically recruited for, and we'll roll in their testing as part of testing with other user types:
 * Logged out user
 * MHV user
+* DS Logon user
 
 ### Primary criteria (must-haves)
 
@@ -67,13 +68,22 @@ The following use cases will not be specifically recruited for, and we'll roll i
 - Must be able to screenshare via Zoom
 - Must be able to login to VA.gov with either ID.me or Login.gov
 
-### Screener question to find participants with necessary login credentials
+### Additional screener questions
+
+**Verification level screener question**
 
 We’d like you to review parts of the VA website that require you to log in to an identity-verified account. **Do you have an identify-verified account on VA.gov?**
 You can check on this by logging into VA.gov. If you see a prompt to verify your identity once you log in, your identity is **not** yet verified.
 Response options: yes or no.
 - Answering "yes" qualifies the participant
 - Answering "no" disqualifies the participant
+
+**Login method screener question**
+
+Do you have a working login and password for any of the following VA.gov login methods? (Select 1-4 options). **You will need your login credentials for the research session, so please make sure your credentials work before answering this question.**
+Response options: DS Logon, MyHealtheVet, Login.gov, ID.me, None of the above
+- If participant answers **only** DS Logon or MyHealtheVet, they are disqualified.
+- If participant's answer includes either (or both) Login.gov or ID.me, they are qualified.
 
 ### Research sessions
 What dates do you plan to do research? 
